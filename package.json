@@ -1,0 +1,13 @@
+
+  {
+    "name": "bcw-2023summer-gregslistnode",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd bcw-2023summer-gregslistNode.client && npm i",
+      "setup:server": "cd bcw-2023summer-gregslistNode && npm i",
+      "start": "node bcw-2023summer-gregslistNode/index.js"
+    }
+  }
+  
